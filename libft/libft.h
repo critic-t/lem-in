@@ -16,6 +16,8 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# define BUFF_SIZE 1
+# define BUFF 1024
 
 typedef	struct	s_list
 {
@@ -85,5 +87,6 @@ void			ft_lstadd(t_list **alst, t_list *new);
 void			ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int				ft_strnlen(const char *s, size_t len);
+int				get_next_line(const int fd, char **line);
 
 #endif

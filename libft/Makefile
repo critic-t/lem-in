@@ -22,7 +22,7 @@ SRC =	ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c\
 		ft_strnew.c ft_strsub.c ft_putchar.c ft_putchar_fd.c ft_putstr_fd.c\
 		ft_putnbr.c ft_space.c ft_memalloc.c ft_putendl_fd.c ft_putnbr_fd.c\
 		ft_putendl.c ft_strsplit.c ft_strmap.c ft_striter.c ft_striteri.c ft_strmapi.c\
-		ft_strpbrk.c ft_space.c ft_strnlen.c ft_itoa.c
+		ft_strpbrk.c ft_space.c ft_strnlen.c ft_itoa.c get_next_line.c
 
 JAY = 	$(SRC:%.c=%.o)
 
